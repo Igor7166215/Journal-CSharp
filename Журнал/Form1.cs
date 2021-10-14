@@ -42,8 +42,7 @@ namespace Журнал
             MainGrid.DataSource = Table;
 
             bindingSource1 = new BindingSource();
-            bindingSource1.DataSource = Table;
-            //bindingNavigator1.BindingSource = bindingSource1;
+            bindingSource1.DataSource = Table;           
             MainGrid.DataSource = bindingSource1;
         }
         private void button1_Click(object sender, EventArgs e)
